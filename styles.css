@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.top-nav{
+    grid-row: 1 / 5;
+    grid-column: 1 / 2;
+}
+
+.search-bar{
+    grid-row: 1 / 5;
+    grid-column: 1 / 5;
+    margin-top: 10px;
+    padding-left: 300px;
+    padding-right: 10px;
+}
+
+.bar{
+    background-color: rgb(207, 204, 204);
+    color: rgba(128, 128, 128, 0);
+    border: none;
+    border-radius: 5px;
+    width: 110%;
+}
+
+.icons{
+    grid-row: 1 / 5;
+    grid-column-start: 5;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.pinterest{
+    margin-left: 20px;
+}
+
+#inicio{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+
+#hoy{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+#siguiendo{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+#siguiendo a:link{
+    color: black;
+}
+#siguiendo a:visited{
+    color: black;
+}
+#siguiendo a:hover{
+    background-color: rgb(102, 101, 101);
+}
+
+.chat{
+    margin-left: 20px;
+}
+
+.profile{
+    margin-left: 20px;
+}
+
+.arrow{
+    margin-left: 20px;
+}
