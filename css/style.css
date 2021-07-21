@@ -63,7 +63,24 @@ header,
 .logo {
   fill: #e60022;
 }
-
+.dropdown{
+  display: none;
+}
+@media screen and (max-width:426px){
+  .ocultar{
+    display: none;
+  }
+  .inicio{
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    align-items: center;
+  }
+  .dropdown{
+    display: inline;
+    margin-left: 5px;
+  }
+}
 /* END Navbar */
 
 /* BEGIN Image Grid */
