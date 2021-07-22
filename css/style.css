@@ -84,5 +84,46 @@ header,
 /* END Navbar */
 
 /* BEGIN Image Grid */
+.grid {
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   grid-template-rows: 20% 20% 20% 20% 20%;
+   border: 1px solid black;
+  
+}
+.A {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.B {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.C {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+.D {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+.E {
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+.F {
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+.G {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+.H {
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+
 
 /* END Image Grid */
